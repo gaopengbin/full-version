@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
 }
@@ -11,4 +12,12 @@ html, body {
 /* 隐藏ion */
 .cesium-viewer-bottom {
   display: none;
+}
+
+.el-dialog {
+  pointer-events: all;
+}
+
+div:has(> .el-overlay-dialog) {
+  pointer-events: none;
 }

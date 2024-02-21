@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "cesium": "1.104",
+    "element-plus": "^2.5.6",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.71.1",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
     "vite-plugin-compression": "^0.5.1",
