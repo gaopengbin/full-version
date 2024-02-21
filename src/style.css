@@ -1,0 +1,14 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* 隐藏ion */
+.cesium-viewer-bottom {
+  display: none;
+}
